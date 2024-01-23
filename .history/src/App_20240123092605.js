@@ -46,7 +46,7 @@ export default function App() {
               onClick={handleNext}
               Next
             >
-              Next<span>👉</span>
+              <span>👉</span> Next
             </Button>
           </div>
         </div>

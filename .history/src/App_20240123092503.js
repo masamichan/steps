@@ -46,7 +46,7 @@ export default function App() {
               onClick={handleNext}
               Next
             >
-              Next<span>👉</span>
+              <span>👉</span>
             </Button>
           </div>
         </div>
@@ -61,7 +61,8 @@ function Button({ textColor, bgColor, onClick, children }) {
       style={{ backgroundColor: bgColor, color: textColor }}
       onClick={onClick}
     >
-      {children}
+      <span>{emoji}</span>
+      {text}
     </button>
   );
 }
